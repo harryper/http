@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>day04</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LocationDemo</servlet-name>
+    <servlet-class>com.lhb.httptest.LocationDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GZIPDemo</servlet-name>
+    <servlet-class>com.lhb.httptest.GZIPDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowImgDemo</servlet-name>
+    <servlet-class>com.lhb.httptest.ShowImgDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadDemo</servlet-name>
+    <servlet-class>com.lhb.httptest.DownloadDemo</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LocationDemo</servlet-name>
+    <url-pattern>/LocationDemo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GZIPDemo</servlet-name>
+    <url-pattern>/GZIPDemo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowImgDemo</servlet-name>
+    <url-pattern>/ShowImgDemo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadDemo</servlet-name>
+    <url-pattern>/DownloadDemo</url-pattern>
+  </servlet-mapping>
+
+</web-app>
